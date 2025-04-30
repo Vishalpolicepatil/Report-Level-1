@@ -112,7 +112,7 @@ Drone Rules which are enclosed in the **Gazette of India** which are approved by
 
 The Quality Council of India (QCI) plays a significant role in civil aviation by promoting quality, safety, and efficiency in various aspects of the aviation sector. 
 
-![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/quality%20council%20of%20india.png?raw=true)
+
 
 ### BIS : Bureau of Indian Standards 
 

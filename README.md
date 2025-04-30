@@ -112,10 +112,36 @@ Drone Rules which are enclosed in the **Gazette of India** which are approved by
 
 The Quality Council of India (QCI) plays a significant role in civil aviation by promoting quality, safety, and efficiency in various aspects of the aviation sector. 
 
-
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/quality%20council%20of%20india.png?raw=true)
 
 ### BIS : Bureau of Indian Standards 
 
 The Bureau of Indian Standards (BIS) plays a crucial role in civil aviation by ensuring quality, safety, and reliability in aviation-related products, infrastructure, and operations.
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Bureau_of_Indian_Standards_BIS_3c31d16dc7.jpg?raw=true)
+
+## BVLOS(Beyond visual line of sight)
+
+**Objective:** To understand the before flying procedure, and flying procedure of the BVLOS
+
+- **SOP :** Standard operating procedures should be submitted to DGCA.
+- **Security clearances :** Need clearances from the Ministry of home affairs(MHA) to fly BVLOS.
+- **Flight height rules :** 400 feet above ground level is allowed and if we want to increase the height we required permission from the AAI.
+- **Condition for energy reserve :** 15% energy should be left when finishing the mission to cope up with emergency like situations.
+- **Risk assessment :**  Training team members in Hazardous identification and risk management situations like collisions with other aircraft, robstacles, or people, weather conditions, or equipment malfunctions. 
+- **Qualificaton of pilotes :** Drone pilotes should have valid certificates.
+- **Approvals :** To fly BVLOS we need approvals from the Ministry of defence and local authorities.
+- **Single point Control  :** Appointing a person in the ATC office to communicate during the flight.
+- **Plans of flight :** Require flight information centre number and Air defence clearance number.
+- **NOTAM :** Issue a notice to other air service agencies to inform about our flight.
+- **Time to fly :** We can fly in day time only and there must be good weather while launch and landing.
+- **Drone Requirements :**
+1. Micro or small category. 
+2. Should have valid Drone Acknowledgement Number. 
+3. Good battery life for long duration flights.
+4. Sholud weather resistent.
+5. Contain real time tracking devices.
+6. Must have barometric sensor for accurate altitude.
+
 
 

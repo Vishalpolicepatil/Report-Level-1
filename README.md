@@ -1,4 +1,5 @@
-# Task :1 Assembling a Drone using eCalc
+# Task :1 Basic UAV Assembly & Components Familiarization
+
 
 **Objective:**
 To write about different materials to assemble a drone with an empty weight of 800g. State the reasons behind material selection and endurance. Calculate the thrust, battery, ESC, and other materials needed for the drone.
@@ -10,57 +11,71 @@ For the drone frame, *Carbon fibre* was selected due to it's exceptional strengt
 ## Component Selection:
 
 **1.Motor**
-- Model: 4-max PPO-3536-1250(1250)
-- Justification: The 4-Max PPO-3536-1250 motor is a high-performance brushless outrunner motor designed primarily for RC aircraft.
+- Model: Ecoll 2814-830(830)
+- The Ecoll 2814-830(830) motor is a high-performance brushless outrunner motor designed primarily for RC aircraft.
+- No load current is 13A @ 1 V.
+- The notation **2814** indicates the size of stator i.e 28 is the **diameter** of stator in mm and 14 is the **height** of the stator in mm.
+- The notation **830** indicates the kv i.e velocity constant the motor runs at speed of **830 rpm at 1 volt**.
+- The speed of the motor kept slow due to large propellers size which cause increase in the temperature and heat loss in thr system.
 
 **2.Propellers**
 
-- Model: DJI 10 inch with 4.7 width.
-- Justification: DJI propellers are designed specifically for *High efficiency,* *Stabilty,* and *low noise.*
+- Model: DJI 10 inch with 4.7 inch width.
+- DJI propellers are designed specifically for *High efficiency,* *Stabilty,* and *low noise.*
+- The **10 inch** is the **diameter** of the propeller.
+- **4.7 inch** is the **pitch** of the propeller.
+- The size of the propeller is kept large to maintain weight-to-thrust ratio.
+
 
  **3.Battery**
 
- - Model: LiPo 5000mAh, 45/60c.
- - Justification: Battery offers capacity to sustain hover flight of 6.9 min.
+ - Model: LiPo 2200mAh, 80/120c.
+ - The **Lipo** indicates the **Lithium polymer battery** is used which has properties like *light weight, more discharge rate, and high current density.*
+ - It can discharge 2.2 A per hour.
+ - The notation **80/120 c** indicates the **capacity rate to discharge**.
+ - **80 c** is the **continous discharge rate** and **120 c** is the **brust discharge rate** which last's only for few sec and it is the maximum discharge rate.
+ - 6 cell Ni-metal hydride battery is equal to 2 cell Lipo battery.
+  
 
 **4.ESC(Electronic speed controller)**
 
-- Model: Max 100A.
-- Justification: It can handel high current, making it suitable for high power application.
+- Model: Max 20A.
+- It can handel high current, making it suitable for high power application.
+- It is **20%** more than the maximum current drawn by the motor to satishify the condition.
 
 **5.Frame**
 - Material: Carbon fiber (weight: 200 grams).
   
-- Justification: Lightweight and durable, enhancing stability and endurance.
+- Lightweight and durable, enhancing stability and endurance.
 
 ## Outcomes from eCalc:
 
 1.**Thrust-to-weight ratio:**
-- Achieved:  **2:1**
-- To ensure stable flight at playload **1706 g** \
-2.**Hover flight time:**
-- Achieved: **6.9 min** \
-3.**Mixed flight time:**
-- Achieved: **5.6 min** \
-4.**Total weight:**
-- Achieved: All up weight is **2278 g**\
-5.**Maximum Speed:**
-- Achieved: **72 Kmph** \
+ Achieved:  **3:1** \
+To ensure stable flight at playload **1376 g** \
+ 2.**Hover flight time:** \
+ Achieved: **13.5 min** \
+3.**Mixed flight time:** \
+ Achieved: **7.7 min** \
+4.**Total weight:** \
+ Achieved: All up weight is **850 g**\
+5.**Maximum Speed:** \
+ Achieved: **61 Kmph** \
 6.**Efficiency at hover:**
-- Achieved: **76.1%** \
-7.**Estimated temeprature of motor:**
-- Achieved: **33°C**
+ Achieved: **73.3 %** \
+7.**Estimated temeprature of motor:** \
+ Achieved: **31°C**
 
 ## Analysis
 
 ### Component compatibilty 
 The motor, ESC, and propellers are well-matched, as evidenced by the efficiency and stable RPM performance. The selected battery complements the overall design, allowing sustained operation without overheating.
 
-![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-03-25%20160157.png?raw=true)
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-03%20170333.png?raw=true)
 
-![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-03-25%20160534.png?raw=true)
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-03%20170409.png?raw=true)
 
-![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-03-25%20160706.png?raw=true)
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-03%20170427.png?raw=true)
 
 # Task :2 Flying the Airblock Drone
 

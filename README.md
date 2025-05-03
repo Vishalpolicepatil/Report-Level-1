@@ -91,10 +91,10 @@ I had oppurtunity to fly the airblock drone and i have learnt to use Makeblock a
 
 [click here](https://www.youtube.com/shorts/RL_wcow8nSk?feature=share) to watch video performimg in lab.
 
-# Task :3 Regulations of DGCA
+# Task :3 Regulations 
 
 **Objective:** 
-To learn about ICAO, SARPS, QCI, BIS, stakeholders, and their basic laws.\
+To learn about ICAO, SARPS, QCI, BIS, stakeholders, BVLOS, and their basic laws.\
 **Outcomes&Learning:**
 ### ICAO : International Civil Aviation Organization 
 
@@ -157,6 +157,8 @@ The Bureau of Indian Standards (BIS) plays a crucial role in civil aviation by e
 4. Sholud weather resistent.
 5. Contain real time tracking devices.
 6. Must have barometric sensor for accurate altitude.
+
+
 
 
 

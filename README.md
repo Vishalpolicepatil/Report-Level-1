@@ -77,20 +77,6 @@ The motor, ESC, and propellers are well-matched, as evidenced by the efficiency 
 
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-03%20170427.png?raw=true)
 
-# Task :2 Flying the Airblock Drone
-
-**Objective:**
-To learn to fly a drone and making take-off and landing perfectly and have fun experience.
-
-**Outcomes&Learnings:** 
-I have learnt the basic protocols of flying and understood the basic safety standards.
-
-I had oppurtunity to fly the airblock drone and i have learnt to use Makeblock application it contains guide to make block to an toy which can fly, move on land, and swim in the water and blocks can be arranged if we have idea to make it better model and **programme** it.
-
-![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Airblock%20flying.drone.jpg?raw=true)
-
-[click here](https://www.youtube.com/shorts/RL_wcow8nSk?feature=share) to watch video performimg in lab.
-
 # Task :3 Regulations 
 
 **Objective:** 

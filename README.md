@@ -143,6 +143,172 @@ The Bureau of Indian Standards (BIS) plays a crucial role in civil aviation by e
 4. Sholud weather resistent.
 5. Contain real time tracking devices.
 6. Must have barometric sensor for accurate altitude.
+# TASK 3: Introduction to Aerodynamics and Aircraft Structures 
+
+**Objective :** 
+- Study Bernoulli’s Principle, Newton’s Third Law in aviation, and aerodynamic 
+forces. 
+- Understand lift, drag, thrust, weight, and stability. 
+- Learn about primary and secondary control surfaces.  
+Do a thorough study about the concepts of Aviation present in the given 
+resource articles.
+
+# TASK 4: Different Flight modes in Mission Planner 
+
+**Objective :** To be familiar with the various flight modes available in the Mission Planner 
+software and understand their use cases.
+
+**Outcomes&Learning :** Learnt about different flight modes available in the mission planner 
+
+1. **Stabilize Mode** \
+Manual control with auto-leveling. \
+Pilot controls throttle to maintain altitude. \
+Great for basic manual flying.
+
+2. **Altitude Hold (AltHold)** \
+Maintains current altitude using a barometer.\
+Manual pitch, roll, and yaw control.\
+Good for hovering and learning.
+
+3. **Loiter Mode** \
+GPS-based position hold (holds position and altitude).\
+Very stable; great for photography and safe hovering.
+4. **PosHold (Position Hold)** \
+Similar to Loiter but more responsive to stick inputs.\
+Good balance between control and automation.
+5. **Auto Mode** \
+Executes a pre-planned mission with GPS waypoints.\
+Fully autonomous flight.
+
+6. **RTL (Return to Launch)** \
+Returns to the launch point automatically.\
+Triggered manually or on failsafe (e.g., low battery, signal loss).
+7. **Guided Mode** \
+Controlled via ground station (click on map to send drone).\
+Useful for interactive mission control.
+
+8. **Circle Mode** \
+Drone flies in a circular path around a set point.\
+Can adjust radius and speed.
+
+9. **Drift Mode** \
+For FPV-style flying.\
+Yaw is controlled automatically; feels like flying a plane.
+
+10. **Sport Mode** \
+Manual mode with angle limits and rate control.\
+Faster and more agile; similar to Stabilize but more dynamic.
+
+11. **Brake Mode** \
+Instantly halts the drone and holds position (requires GPS).\
+Emergency "pause" function.
+
+12. **Follow Me Mode** \
+Follows GPS location of a ground control device (like a laptop/tablet).\
+Used for tracking moving targets.
+
+13. **AutoTune Mode** \
+Automatically tunes the PID parameters for optimal flight performance.\
+Requires some flight space and setup.
+
+14. **Land Mode** \
+Automatically lands the drone in a controlled descent.\
+Can be triggered at the end of an Auto mission or manually.
+
+15. **Takeoff Mode** \
+Used in Auto missions to arm and take off to a specified altitude.\
+Autonomous vertical launch.
+
+16. **RTL, Smart RTL, and Land**\
+RTL: Simple return to launch.\
+Smart RTL: Retraces recent flight path back to launch.\
+Land: Immediate, controlled landing at current location.
+
+# TASK 5: Understanding and Designing an Air foil 
+
+**Objective :** \
+• To Understand the fundamentals of an Aerofoil, terms associated with it, the 
+nomenclature, concept of turbulence. \
+• Use Fusion 360 to model an NACA 4412 air foil of 100 mm chord length & 160 
+mm air foil span, in Fusion 360 using DAT to Spline/Canvas tool. \
+• Simulate lift and drag at 25 m/s wind speed to ensure at least 5N lift, use 
+Autodesk CFD for simulation. (Compare with 2 materials, composite based 
+air-foil & wood based air-foil), and stating the angle of attack in the report.
+
+**Outcomes&Learnings :** \
+# TASK 6: RF Communication in UAVs 
+
+**Objective :** \
+•To Learn about radio frequencies used in UAVs (2.4GHz, 5.8GHz, Lora). \
+•To Understand the various security implications in the different wireless 
+protocols used in drones, along with the emerging threats and ways of 
+mitigation. \
+•To Understand the procedure which goes behind the binding of an ELRS receiver. \
+•To Bind the 2.4 GHz RP1 Rx with the TX 16S.  
+**Outcomes and Learnings :** \  
+### Radio Frequencies 
+I learnt about the diffrences between the 2.4GHz and 5GHz radio frequencies  
+
+**2.4GHz** 
+- The most common radio frequency and known as single band frequency.
+- Most of the devices use 2.4GHz frequency that leads potential signal overlap and congestion.
+- Transmitts data at a slower speed.
+- It has long range.
+- It can penetrate solid objects better. 
+- Among 11 channels it has only 3 non-overlapping channels.
+
+![alt image](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/2.4GHz%20channels.png?raw=true)
+
+**5 GHz**
+- The radio frequency also known as double band frequency.
+- Few devices use 5GHz radio frequency it is less crowded.
+- Transmitts data at higher speed.
+- It has short range.
+- Harder to penetrating solid objects.
+- It has 24 non-overlapping channels.
+  
+![alt image](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/best-5ghz-channel-bands-diagram.jpg?raw=true)
+
+### LORAWAN
+- Long Range Wide Area Network.
+- LORAWAN uses an unlicensed frequency band for long-range communication.
+- It can be used for a range of 3 miles in urban area and 10 miles in rural area.
+- LORAWAN devices can have battery life of more than 12 years because it operates at low power and low bandwidth.
+
+#### LoRaWAN Devices 
+**Class A**
+- Longest battery life.
+- Stays in the sleeping mode majority of the time.
+- It is bi-directional communication device.
+- It can response to the messages(Downlink) only if it sent the messages(uplink). \
+Ex:- Fire alaram, Flood detector, etc
+
+**Class B**
+- Average battery life.
+- Listens to network periodically.
+- It can receive messages (down link) even if it has not sent messages.
+Ex:- Metering of temp, Humidity, etc
+
+**Class C**
+- Lowest battery life.
+- Listens to the network continuously.
+- It has min latency for messages (downlink and uplink) 
+Ex:- Traffic monitoring 
+
+#### LoRaWAN Architecture
+![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/What-is-LoRaWAN-Technology-and-How-Does-It-Works.webp)
+
+#### LoRaWAN Components 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/LoRa-Network-Architecture.jpg?raw=true)
+
+#### LoRaWAN Application 
+![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/LoRa_Overview_Applications.webp)
+
+#### LoRaWAN Advantages 
+![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/517e7ae1-21c6-497d-b038-15d503f4b65c_Advantages%2Bof%2BLoRaWAN.avif)
+
+### ELRS 
+
 
 
 

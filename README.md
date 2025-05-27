@@ -18,6 +18,12 @@ For the drone frame, *Carbon fibre* was selected due to it's exceptional strengt
 - The notation **830** indicates the kv i.e velocity constant the motor runs at speed of **830 rpm at 1 volt**.
 - The speed of the motor kept slow due to large propellers size which cause increase in the temperature and heat loss in thr system.
 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-12%20220111.png?raw=true)
+
+Dat Sheet of the Motor 
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-12%20220202.png?raw=true)
+
 **2.Propellers**
 
 - Model: DJI 10 inch with 4.7 inch width.
@@ -35,6 +41,12 @@ For the drone frame, *Carbon fibre* was selected due to it's exceptional strengt
  - The notation **80/120 c** indicates the **capacity rate to discharge**.
  - **80 c** is the **continous discharge rate** and **120 c** is the **brust discharge rate** which last's only for few sec and it is the maximum discharge rate.
  - 6 cell Ni-metal hydride battery is equal to 2 cell Lipo battery.
+ 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-12%20220924.png?raw=true)
+
+Data Sheet of Battery 
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-12%20220859.png?raw=true)
   
 
 **4.ESC(Electronic speed controller)**
@@ -43,11 +55,22 @@ For the drone frame, *Carbon fibre* was selected due to it's exceptional strengt
 - It can handel high current, making it suitable for high power application.
 - It is **20%** more than the maximum current drawn by the motor to satishify the condition.
 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-12%20221219.png?raw=true)
+
 **5.Frame**
 - Material: Carbon fiber (weight: 200 grams).
   
 - Lightweight and durable, enhancing stability and endurance.
 
+**6.Flight Controlers**
+- Sensor Fusion \
+  combining data from multiple sensors 
+  ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-25%20191756.png?raw=true)
+
+### Manual Calculations :
+
+**Thrust :**
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250525_193119.jpg?raw=true)
 ## Outcomes from eCalc:
 
 1.**Thrust-to-weight ratio:**
@@ -77,7 +100,8 @@ The motor, ESC, and propellers are well-matched, as evidenced by the efficiency 
 
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-03%20170427.png?raw=true)
 
-# Task :3 Regulations 
+
+# Task 2: Regulations 
 
 **Objective:** 
 To learn about ICAO, SARPS, QCI, BIS, stakeholders, BVLOS, and their basic laws.\
@@ -143,6 +167,7 @@ The Bureau of Indian Standards (BIS) plays a crucial role in civil aviation by e
 4. Sholud weather resistent.
 5. Contain real time tracking devices.
 6. Must have barometric sensor for accurate altitude.
+
 # TASK 3: Introduction to Aerodynamics and Aircraft Structures 
 
 **Objective :** 
@@ -150,9 +175,35 @@ The Bureau of Indian Standards (BIS) plays a crucial role in civil aviation by e
 forces. 
 - Understand lift, drag, thrust, weight, and stability. 
 - Learn about primary and secondary control surfaces.  
-Do a thorough study about the concepts of Aviation present in the given 
-resource articles.
 
+
+**Outcomes&Learning**
+#### Bernoullie's Principle 
+
+Bernoulli's Principle states that an increase in fluid (like air) velocity is accompanied by a decrease in its pressure, and vice versa.
+
+
+![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/Bernoulli's%20principle.webp)
+
+#### Newton's Third Law of Motion 
+
+Every action there is an equal and opposite reaction.
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Newton%203%20law%20of%20motion%20aviation.gif?raw=true)
+
+#### Lift Equation 
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/lifteq.gif?raw=true)
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250524_221714.jpg?raw=true)
+
+#### Flight Control Surfaces 
+
+##### Primary Control Surfaces 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-24%20222833.png?raw=true)
+
+##### Secondary Control Surfaces 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-24%20222857.png?raw=true)
 # TASK 4: Different Flight modes in Mission Planner 
 
 **Objective :** To be familiar with the various flight modes available in the Mission Planner 
@@ -301,8 +352,10 @@ Ex:- Traffic monitoring
 #### LoRaWAN Components 
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/LoRa-Network-Architecture.jpg?raw=true)
 
+
 #### LoRaWAN Application 
 ![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/LoRa_Overview_Applications.webp)
+
 
 #### LoRaWAN Advantages 
 ![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/517e7ae1-21c6-497d-b038-15d503f4b65c_Advantages%2Bof%2BLoRaWAN.avif)
@@ -415,9 +468,3 @@ ESC Drives the motor from minimum to maximum rpm
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250527_171228147_AE.jpg?raw=true)
 
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250527_170308027_AE.jpg?raw=true)
-
-
-
-
-
-

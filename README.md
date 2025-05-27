@@ -308,6 +308,113 @@ Ex:- Traffic monitoring
 ![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/517e7ae1-21c6-497d-b038-15d503f4b65c_Advantages%2Bof%2BLoRaWAN.avif)
 
 ### ELRS 
+ELRS is the High-performance radio control (RC) link designed for first-person view (FPV) drones and other remote-controlled devices.
+
+#### ELRS VS CROSSFIRE 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-21%20160216.png?raw=true)
+ELRS 
+
+Pros: 
+1. It is open source and mostly used for FPV(first person view) drones.
+2. ExpressLRS is more affordable than Crossfire.
+3. Low latency (Transmitter can send messages to the receiver 1000 times per sec) i.e maximum update rate is 1000Hz.
+
+cons: 
+1. ExpressLRS is somewhat more technically complex than other RC systems.
+2. ELRS communication isn’t secured and isn’t jam resistant.
+3.  ELRS supports up to 12 channels due to limited bandwidth.
+
+CROSSFIRE
+
+Pros:
+1. The setup process is straightforward.
+2. Crossfire has been around for years and has proven itself to be reliable and efficient in long-range flights.
+3. Crossfire offers extensive telemetry features, providing pilots with real-time information about their drone’s status and radio link health.
+
+cons:
+1. Crossfire is more expensive than ExpressLRS.
+2. Crossfire has a maximum update rate of 150Hz.
+
+# TASK 7: Advanced Flight Control & Tuning
+
+**Objective :** \
+• To Understand PID tuning for stability in UAVs.\ 
+• To Learn how GPS hold and altitude hold work in flight controllers, and tabulate 
+the differences between the two. \
+• To Maka a self-balancing car which balances itself on the principles of PID 
+control. 
+
+**Outcomes&Learnings:** \
+#### PID(Proportional-Integral-Derivative)
+![alt text](https://raw.githubusercontent.com/Vishalpolicepatil/Report-Level-1/refs/heads/main/pid-block-diagram.avif)
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG20250521165613.jpg?raw=true)
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG20250521172058.jpg?raw=true)
+
+#### HOLDING 
+A predetermined maneuver which keeps an
+aircraft within a specified airspace while
+awaiting further clearance.
+
+##### HOLDING PROCEDURE 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-21%20173215.png?raw=true)
+
+GPS holding and altitude holding are some of the types of the holding in the aviation
+
+##### GPS HOLDING 
+A holding pattern that utilizes GPS navigation to maintain the aircraft's position at a specific way point 
+
+- Not stable in the wind turbulence conditions.
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-22%20232716.png?raw=true)
+
+##### ALTITUDE HOLD 
+The throttle is automatically controlled to maintain the current altitude. 
+
+- Stable in the wind turbulence conditions.
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/altitude%20holding.jpg?raw=true)
+
+# TASK 8: Understand about ESC(Electronic speed control)
+
+**Objective :**  To control the speed of a BLDC motor using Arduino UNO, ESC, and a
+potentiometer.
+
+**Outcomes&Learning :** 
+I learnt to control the speed of the BLDC motor using Arduino UNO, ESC, and a potentiometer.
+
+**Circuit Diagram**
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-27%20220226.png?raw=true)
+
+**Code to Run the motor**
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-27%20220323.png?raw=true)
+
+**Description of components**
+
+1. **Arduino Uno :**
+ A microcontroller generate the 50Hz PWM signal and depending on pulses width or the high state duration which should vary from 1 millisecond to 2 milliseconds, the ESC will drive the motor from minimum to maximum RPM.
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-27%20221824.png?raw=true)
+
+2. **BLDC Motor :** 
+I used 1000 kv motor for performing the task.
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/bldc%20motor.jpg?raw=true)
+
+3.  **ESC(Electronics speed controler) :** 
+ESC Drives the motor from minimum to maximum rpm 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/301-esc-for-drone-600x315w.jpeg?raw=true)
+
+4. **Potentiometer :** Act as voltage divider by varing the resistances.
+
+      ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/potentiometer.jpeg?raw=true)
+
+**Pictures While performing in the lab**
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250527_171228147_AE.jpg?raw=true)
+
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250527_170308027_AE.jpg?raw=true)
 
 
 

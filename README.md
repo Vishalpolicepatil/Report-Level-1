@@ -13,7 +13,7 @@ For the drone frame, *Carbon fibre* was selected due to it's exceptional strengt
 **1.Motor**
 - Model: Ecoll 2814-830(830)
 - The Ecoll 2814-830(830) motor is a high-performance brushless outrunner motor designed primarily for RC aircraft.
-- No load current is 13A @ 1 V.
+- No load current is 1.3A @ 10 V.
 - The notation **2814** indicates the size of stator i.e 28 is the **diameter** of stator in mm and 14 is the **height** of the stator in mm.
 - The notation **830** indicates the kv i.e velocity constant the motor runs at speed of **830 rpm at 1 volt**.
 - The speed of the motor kept slow due to large propellers size which cause increase in the temperature and heat loss in thr system.
@@ -287,6 +287,19 @@ Autodesk CFD for simulation. (Compare with 2 materials, composite based
 air-foil & wood based air-foil), and stating the angle of attack in the report.
 
 **Outcomes&Learnings :** \
+**Nomenclature**
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250603_223147.jpg?raw=true)
+
+**Labelled Airfoil**
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250603_223227.jpg?raw=true)
+
+**Air Foil :** \
+I Designed air foil at Autodesk \
+Front view of the airfoil
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-06-03%20224454.png?raw=true)
+
+3-D View of airfoil \
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-06-03%20224133.png?raw=true)
 # TASK 6: RF Communication in UAVs 
 
 **Objective :** \
@@ -443,6 +456,8 @@ I learnt to control the speed of the BLDC motor using Arduino UNO, ESC, and a po
 **Code to Run the motor**
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-05-27%20220323.png?raw=true)
 
+**Principle of BLDC motor**
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250603_220406.jpg?raw=true)
 **Description of components**
 
 1. **Arduino Uno :**
@@ -468,3 +483,28 @@ ESC Drives the motor from minimum to maximum rpm
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250527_171228147_AE.jpg?raw=true)
 
 ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250527_170308027_AE.jpg?raw=true)
+
+# TASK 9:  Propeller Blade Design & Simulation
+
+**Objective :** \
+ To understand propeller fundamentals and simulate its aerodynamic
+ performance.
+
+ **Outcomes&Learnings :** 
+ 
+ **Basics of propeller :** \
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163214.jpg?raw=true)
+ **Real life aplication of Diameter and Pitch :** \
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163245.jpg?raw=true)
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163324.jpg?raw=true)
+ **2 Vs 3 Blade propellers :** \
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163359.jpg?raw=true)
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163435.jpg?raw=true)
+ **Converson Between 2 blade and 3 blade propeller :** \
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163513.jpg?raw=true)
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163540.jpg?raw=true)
+ **Propeller Specifications for the Racing Drone :** \
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163607.jpg?raw=true)
+ ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163637.jpg?raw=true)
+
+### THANK YOU 

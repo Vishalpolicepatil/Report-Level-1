@@ -506,5 +506,12 @@ ESC Drives the motor from minimum to maximum rpm
  **Propeller Specifications for the Racing Drone :** \
  ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163607.jpg?raw=true)
  ![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/IMG_20250605_163637.jpg?raw=true)
+ I have designed a propeller in fusion 360 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-06-12%20143158.png?raw=true)
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-06-12%20143211.png?raw=true)
+
+Dimensions of the propeller \
+All dimensions are in mm 
+![alt text](https://github.com/Vishalpolicepatil/Report-Level-1/blob/main/Screenshot%202025-06-12%20155239.png?raw=true)
 
 ### THANK YOU 
